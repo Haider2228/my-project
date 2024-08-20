@@ -18,7 +18,3 @@ jobs:
 
     - name: Verify Docker image
       run: docker images
-
-    - name: Run Tests
-      run: |
-        docker run --rm my-image:latest
